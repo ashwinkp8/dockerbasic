@@ -10,11 +10,11 @@ basic stuff on docker. Might get advacned sometime
 ```
 Docker image is now created. (I've tagged the image wiht name `withclang`)
 
-if you want to login to docker image and work on bash
+if you want to login to docker container and work on bash
 ```
   docker run --rm -i -t debian:withclang /bin/bash
 ```
-To run a command, 
+To run a command inside the container, 
 ```
   docker run --rm -i -t debian:withclang <COMMAND>
 ```
