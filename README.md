@@ -8,7 +8,8 @@ basic stuff on docker. Might get advacned sometime
  ```
   docker build  -t debian:withclang .
 ```
-Docker image is now created. (I've tagged the image wiht name withclang)
+Docker image is now created. (I've tagged the image wiht name `withclang`)
+
 if you want to login to docker image and work on bash
 ```
   docker run --rm -i -t debian:withclang /bin/bash
